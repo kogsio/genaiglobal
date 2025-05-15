@@ -55,17 +55,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1371932416410910810"
   },
   {
-    "id": 6,
-    "title": "Navigating AI Agent Deployment and Cost Estimation: Slide Deck & Bonus Material",
-    "description": "This downloadable slide deck covers strategies for deploying AI agents and provides detailed insights into cost estimation, including model parameters and compute requirements. Bonus material is included to help you better understand and plan for AI deployment expenses.",
-    "date": "2025-05-13",
-    "author": "georgi8865",
-    "channel": "🏘general-chat",
-    "tag": "Tutorial",
-    "resource_url": "https://drive.google.com/file/d/1MrHZ7n4ptBGoj3CCsOZNoS7Nz72lw-NU/view?usp=sharing",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1371932416410910810"
-  },
-  {
     "id": 7,
     "title": "SGU - B Meeting Video Recording (May 13, 2025)",
     "description": "Watch the full video recording of the SGU - B meeting held on May 13, 2025. This resource captures the discussion, decisions, and key moments from the session for reference and review.",
@@ -176,17 +165,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1371820509116891266"
   },
   {
-    "id": 17,
-    "title": "UAE Launches AI Curriculum for Young Children in State Schools",
-    "description": "The United Arab Emirates is introducing artificial intelligence classes for students as young as four, aiming to foster AI literacy and ethical awareness from an early age. This initiative seeks to position the UAE as a regional AI leader and better equip students for future job markets.",
-    "date": "2025-05-13",
-    "author": "michaelkeady_92138",
-    "channel": "🏘general-chat",
-    "tag": "News/Article",
-    "resource_url": "https://www.ft.com/content/d6f54a83-cdee-46d0-9555-95ff45fbfaab?utm_source=chatgpt.com))",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1371820509116891266"
-  },
-  {
     "id": 18,
     "title": "O1 Skill Issue – Latent Space",
     "description": "This article from Latent Space discusses the 'O1 Skill Issue', exploring challenges and insights related to AI, machine learning, or software engineering. It provides valuable commentary and analysis for practitioners and enthusiasts in the field.",
@@ -206,17 +184,6 @@
     "channel": "🏘general-chat",
     "tag": "News/Article",
     "resource_url": "https://med.stanford.edu/cerc/research/computer-vision.html?main_panel_builder_900361654_panel_1_external_news_contai_start=4#:~:text=Our%20participation%20in%20the%20Stanford,detect%20patient%20and%20staff%20activities.",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1371632329683898458"
-  },
-  {
-    "id": 20,
-    "title": "How Artificial Intelligence is Revolutionizing Patient Monitoring in Healthcare",
-    "description": "Explore how Fei-Fei Li and Arnold Milstein are leveraging computer vision and AI to remotely monitor patients in hospitals, potentially saving hundreds of thousands of lives each year. This article discusses the technology’s impact on healthcare efficiency and patient safety.",
-    "date": "2025-05-12",
-    "author": "rad.ai",
-    "channel": "🏘general-chat",
-    "tag": "News/Article",
-    "resource_url": "https://www.sciencefriday.com/articles/human-healthcare-artificial-intelligence/",
     "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1371632329683898458"
   },
   {
@@ -305,17 +272,6 @@
     "channel": "📥socialmedia-submissions",
     "tag": "Paper",
     "resource_url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2025/05/trust-attitudes-and-use-of-ai-global-report.pdf",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1368763793370517514/1371492545158320300"
-  },
-  {
-    "id": 29,
-    "title": "Trust, Attitudes, and Use of AI: Executive Summary",
-    "description": "This executive summary, produced by KPMG and the University of Melbourne, explores public perceptions of trust, attitudes, and usage patterns surrounding artificial intelligence. It provides insights into how trust is defined in the context of generative AI and examines key factors influencing public confidence in AI technologies.",
-    "date": "2025-05-12",
-    "author": "silkefinken",
-    "channel": "📥socialmedia-submissions",
-    "tag": "News/Article",
-    "resource_url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2025/05/trust-attitudes-and-use-of-ai-executive-summary.pdf",
     "discord_url": "https://discord.com/channels/1353058864810950737/1368763793370517514/1371492545158320300"
   },
   {
@@ -517,17 +473,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1370034335511613520"
   },
   {
-    "id": 48,
-    "title": "Trust, Attitudes and Use of Artificial Intelligence: A Global Study 2025 (Executive Summary)",
-    "description": "This executive summary presents findings from a 2025 global study by KPMG and the University of Melbourne, surveying over 48,000 people in 47 countries to analyze public trust, attitudes, and usage patterns regarding artificial intelligence.",
-    "date": "2025-05-08",
-    "author": "renej._07786",
-    "channel": "📚ai-philosophy-ethics",
-    "tag": "Paper",
-    "resource_url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2025/05/trust-attitudes-and-use-of-ai-executive-summary.pdf)",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1370034335511613520"
-  },
-  {
     "id": 49,
     "title": "Blinq",
     "description": "Blinq is a platform that provides tools for generating and sharing digital business cards, streamlining professional networking. It offers features for easy contact sharing and integration with various platforms, making it useful for modern business interactions.",
@@ -547,28 +492,6 @@
     "channel": "📚ai-philosophy-ethics",
     "tag": "News/Article",
     "resource_url": "https://www.entrepreneur.com/business-news/fiverr-ceo-says-ai-will-take-your-job-heres-what-to-do/491198",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1369782508945674360"
-  },
-  {
-    "id": 51,
-    "title": "Duolingo CEO All-Hands Email on AI Transformation",
-    "description": "This LinkedIn post shares an all-hands email from Duolingo's CEO addressing how AI will fundamentally change jobs and business models, offering insight into corporate communication and strategy around workforce upskilling and AI literacy.",
-    "date": "2025-05-07",
-    "author": "silkefinken",
-    "channel": "📚ai-philosophy-ethics",
-    "tag": "News/Article",
-    "resource_url": "https://www.linkedin.com/posts/duolingo_below-is-an-all-hands-email-from-our-activity-7322560534824865792-l9vh/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1369782508945674360"
-  },
-  {
-    "id": 52,
-    "title": "Communicating AI Strategy: Lessons from Shopify, Duolingo, and Fiverr CEOs",
-    "description": "This article explores how leaders at major companies like Shopify, Duolingo, and Fiverr are addressing the challenges of workforce upskilling and AI literacy in an AI-first era. It highlights strategies for communicating AI-driven changes to employees and the broader implications for businesses and society.",
-    "date": "2025-05-07",
-    "author": "silkefinken",
-    "channel": "📚ai-philosophy-ethics",
-    "tag": "News/Article",
-    "resource_url": "https://www.forbes.com/sites/douglaslaney/2025/04/09/selling-ai-strategy-to-employees-shopify-ceos-manifesto/",
     "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1369782508945674360"
   },
   {
@@ -613,17 +536,6 @@
     "channel": "📚ai-philosophy-ethics",
     "tag": "Paper",
     "resource_url": "https://arxiv.org/abs/2504.14223",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1369716672558268456"
-  },
-  {
-    "id": 57,
-    "title": "SimplifyMyText: AI-Powered Plain Language for Global Accessibility",
-    "description": "This arXiv paper introduces SimplifyMyText, a large language model-based tool designed to convert complex texts into plain language across five languages, enhancing accessibility and comprehension for diverse audiences. The resource includes a public tool and discusses its potential impact on global inclusion.",
-    "date": "2025-05-07",
-    "author": "melindamelcher",
-    "channel": "📚ai-philosophy-ethics",
-    "tag": "Paper",
-    "resource_url": "https://discordapp.com/channels/1353058864810950737/1369719237463117875",
     "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1369716672558268456"
   },
   {
@@ -682,17 +594,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1354193330854035617/1369649965369917481"
   },
   {
-    "id": 63,
-    "title": "Allie K. Miller AI Resources",
-    "description": "A curated collection of AI resources compiled by Allie K. Miller, including guides, tools, and educational materials for those interested in artificial intelligence and machine learning.",
-    "date": "2025-05-07",
-    "author": "michaelkeady_92138",
-    "channel": "💼career-opportunities",
-    "tag": "Tool",
-    "resource_url": "https://www.alliekmiller.com/resources",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1354193330854035617/1369649965369917481"
-  },
-  {
     "id": 64,
     "title": "Revolutionary Innovations Propelling Growth (McKinsey White Paper)",
     "description": "This McKinsey white paper explores eight transformative innovations—including electric vehicles, GLP-1 medications, blockchain, and transformer models—that are driving significant growth across industries. It provides insights into the impact, adoption, and future potential of these technologies.",
@@ -748,17 +649,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1362581139557978182/1369509130275917955"
   },
   {
-    "id": 69,
-    "title": "Stanford 2025 AI Index Report",
-    "description": "A comprehensive annual report from Stanford's Human-Centered AI Institute, providing in-depth analysis, data, and trends on the state of artificial intelligence in 2025. Valuable for understanding global AI progress, policy, and impact.",
-    "date": "2025-05-07",
-    "author": "sandraf1230",
-    "channel": "🗞genai-news",
-    "tag": "Paper",
-    "resource_url": "https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf.",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1362581139557978182/1369509130275917955"
-  },
-  {
     "id": 70,
     "title": "Anouk Non-Profit Organization",
     "description": "Anouk is a non-profit organization dedicated to enhancing well-being through art, focusing on creating positive spaces for mental and emotional wellness in institutions such as hospitals and shelters. The site provides information about their mission, projects, and opportunities for contributing, especially in the context of integrating generative AI into their initiatives.",
@@ -778,17 +668,6 @@
     "channel": "🏘general-chat",
     "tag": "Tutorial",
     "resource_url": "https://python.langchain.com/docs/how_to/llm_token_usage_tracking/)",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1369406334562341068"
-  },
-  {
-    "id": 72,
-    "title": "LangChain Guide: Calculate Token-Based Costs",
-    "description": "This official LangChain documentation provides a practical guide on tracking and calculating token usage and associated costs when interacting with LLMs, including code examples for both single and multiple requests. It is valuable for developers seeking to monitor and optimize their usage of language models.",
-    "date": "2025-05-06",
-    "author": "georgi8865",
-    "channel": "🏘general-chat",
-    "tag": "Tutorial",
-    "resource_url": "https://docs.smith.langchain.com/observability/how_to_guides/calculate_token_based_costs",
     "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1369406334562341068"
   },
   {
@@ -990,17 +869,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1368889731051421746"
   },
   {
-    "id": 91,
-    "title": "Stanford AI Index Report 2025",
-    "description": "This comprehensive report from Stanford University's Human-Centered AI Institute provides an in-depth analysis of global trends, advancements, and impacts in artificial intelligence for 2025. It covers key metrics, research developments, and societal implications to inform policymakers, researchers, and the public.",
-    "date": "2025-05-05",
-    "author": "marie007532",
-    "channel": "📖resources-library",
-    "tag": "Paper",
-    "resource_url": "https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1368889731051421746"
-  },
-  {
     "id": 92,
     "title": "Building an AI Agent for Discord: Session Recording",
     "description": "Watch the video recording of a session that explores the process and learning experience of developing an AI agent for Discord. This resource provides practical insights and demonstrations for those interested in AI integration with Discord platforms.",
@@ -1009,17 +877,6 @@
     "channel": "🎥meeting-recordings",
     "tag": "Event",
     "resource_url": "https://drive.google.com/file/d/1SBbzSH8kX3_7XvMNqiR6qAI-gcPBcrJS/view?usp=sharing",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1364289798340349953/1368690303640404031"
-  },
-  {
-    "id": 93,
-    "title": "Transcript and Summary: Building an AI Agent for Discord",
-    "description": "This Google Doc provides a transcript and summary of a session focused on the learning experience of building an AI Agent for Discord, offering insights and key takeaways for those interested in AI agent development and Discord integration.",
-    "date": "2025-05-04",
-    "author": "julioverne74",
-    "channel": "🎥meeting-recordings",
-    "tag": "Tutorial",
-    "resource_url": "https://docs.google.com/document/d/1HbU0HSDtWXwotRwX5W3oEz_o3JPz3iAPRDcV2oPnKu0/edit?usp=sharing",
     "discord_url": "https://discord.com/channels/1353058864810950737/1364289798340349953/1368690303640404031"
   },
   {
@@ -1141,17 +998,6 @@
     "channel": "🗃gen-ai-use-cases",
     "tag": "Tool",
     "resource_url": "https://developer.paypal.com/tools/agent-toolkit/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1360973368676843583/1367736433154068480"
-  },
-  {
-    "id": 105,
-    "title": "Visa Intelligent Commerce Overview",
-    "description": "This resource provides an overview of Visa Intelligent Commerce, a platform that enables developers to integrate intelligent shopping and payment capabilities into applications, including AI-driven agent experiences. It includes documentation and tools for leveraging Visa's APIs in commerce solutions.",
-    "date": "2025-05-02",
-    "author": "marie007532",
-    "channel": "🗃gen-ai-use-cases",
-    "tag": "Tool",
-    "resource_url": "https://developer.visa.com/capabilities/visa-intelligent-commerce/overview",
     "discord_url": "https://discord.com/channels/1353058864810950737/1360973368676843583/1367736433154068480"
   },
   {
@@ -1342,50 +1188,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1354190157049364501/1367076212546998282"
   },
   {
-    "id": 123,
-    "title": "OpenAI Platform",
-    "description": "The OpenAI Platform provides developers with access to OpenAI's suite of AI models and APIs, enabling the integration of advanced language, vision, and other AI capabilities into applications. It offers documentation, API keys, usage analytics, and management tools for building with OpenAI technologies.",
-    "date": "2025-04-30",
-    "author": "georgi8865",
-    "channel": "🛠ai-practical-applications",
-    "tag": "Tool",
-    "resource_url": "https://platform.openai.com/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1354190157049364501/1367076212546998282"
-  },
-  {
-    "id": 124,
-    "title": "Amazon Bedrock",
-    "description": "Amazon Bedrock is a fully managed service that makes foundation models from leading AI companies accessible via an API, enabling developers to build and scale generative AI applications securely on AWS.",
-    "date": "2025-04-30",
-    "author": "georgi8865",
-    "channel": "🛠ai-practical-applications",
-    "tag": "Tool",
-    "resource_url": "https://aws.amazon.com/bedrock/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1354190157049364501/1367076212546998282"
-  },
-  {
-    "id": 125,
-    "title": "Together AI",
-    "description": "Together AI is a platform that provides access to open-source and proprietary large language models (LLMs) via APIs, enabling developers to build and deploy AI-powered applications efficiently. It offers scalable infrastructure and tools for working with advanced AI models.",
-    "date": "2025-04-30",
-    "author": "georgi8865",
-    "channel": "🛠ai-practical-applications",
-    "tag": "Tool",
-    "resource_url": "https://www.together.ai/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1354190157049364501/1367076212546998282"
-  },
-  {
-    "id": 126,
-    "title": "Cloudflare AI Playground",
-    "description": "An interactive platform by Cloudflare that allows users to experiment with and test various AI models and APIs, providing a hands-on environment for exploring AI capabilities and integrations.",
-    "date": "2025-04-30",
-    "author": "georgi8865",
-    "channel": "🛠ai-practical-applications",
-    "tag": "Tool",
-    "resource_url": "https://playground.ai.cloudflare.com/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1354190157049364501/1367076212546998282"
-  },
-  {
     "id": 127,
     "title": "UNESCO Article: Inclusive Governance to Harness AI for the Public Good",
     "description": "This UNESCO article discusses the importance of inclusive governance in leveraging artificial intelligence for societal benefit, emphasizing digital inclusion and fairness. It provides insights and recommendations for making AI more accessible and equitable.",
@@ -1449,17 +1251,6 @@
     "channel": "🏘general-chat",
     "tag": "News/Article",
     "resource_url": "https://about.fb.com/news/2025/04/introducing-meta-ai-app-new-way-access-ai-assistant/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1366806497388003398"
-  },
-  {
-    "id": 133,
-    "title": "Introducing the Meta AI App: A New Way to Access Your AI Assistant",
-    "description": "This news article announces the launch of Meta's standalone AI assistant app, powered by the Llama 4 model. It highlights new features such as enhanced personalization and advanced voice interaction capabilities, including a beta 'full-duplex' mode.",
-    "date": "2025-04-29",
-    "author": "remarkable_sparrow_25173",
-    "channel": "🏘general-chat",
-    "tag": "News/Article",
-    "resource_url": "https://www.meta.ai/",
     "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1366806497388003398"
   },
   {
@@ -1562,50 +1353,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1366472779175563284"
   },
   {
-    "id": 143,
-    "title": "How ChatGPT and OpenAI Use Your Data for AI Training",
-    "description": "This article explores how ChatGPT and OpenAI collect and utilize user data to train their AI models, raising important questions about privacy and transparency. It also discusses the evolving controls that users have over their personal information and conversations.",
-    "date": "2025-04-28",
-    "author": "ireney_67517",
-    "channel": "📚ai-philosophy-ethics",
-    "tag": "News/Article",
-    "resource_url": "https://www.axios.com/2024/12/02/chatgpt-openai-user-data-training",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1366472779175563284"
-  },
-  {
-    "id": 144,
-    "title": "How Google Uses User Data to Train Its Gemini AI",
-    "description": "This article explores how Google collects and utilizes user data to train its Gemini AI models. It provides insights into data privacy practices and discusses users' options for managing what personal information is shared and used in AI training.",
-    "date": "2025-04-28",
-    "author": "ireney_67517",
-    "channel": "📚ai-philosophy-ethics",
-    "tag": "News/Article",
-    "resource_url": "https://www.axios.com/2024/11/18/google-ai-gemini-user-data-training",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1366472779175563284"
-  },
-  {
-    "id": 145,
-    "title": "How Meta AI Uses and Handles User Data",
-    "description": "This article from Axios explores how Meta's AI systems collect, use, and manage user data, addressing privacy practices and the implications for personal information. It provides insights into the transparency and controls available to users regarding their data in Meta's AI tools.",
-    "date": "2025-04-28",
-    "author": "ireney_67517",
-    "channel": "📚ai-philosophy-ethics",
-    "tag": "News/Article",
-    "resource_url": "https://www.axios.com/2024/11/05/meta-ai-user-data-information",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1366472779175563284"
-  },
-  {
-    "id": 146,
-    "title": "How Microsoft Uses Your Data to Train Its AI",
-    "description": "This article explores how Microsoft collects and utilizes user data for training its artificial intelligence systems, and discusses the privacy implications for users. It also addresses evolving options for controlling the sharing of personal information within AI tools.",
-    "date": "2025-04-28",
-    "author": "ireney_67517",
-    "channel": "📚ai-philosophy-ethics",
-    "tag": "News/Article",
-    "resource_url": "https://www.axios.com/2024/11/25/microsoft-ai-training-data-privacy",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1366472779175563284"
-  },
-  {
     "id": 147,
     "title": "How Microsoft Uses User Data to Train AI: Privacy Insights",
     "description": "This article explores how Microsoft utilizes user data to train its AI models and the privacy implications involved. It provides an overview of the types of information collected, current user controls, and evolving transparency around data usage in Microsoft's AI tools.",
@@ -1615,17 +1362,6 @@
     "tag": "News/Article",
     "resource_url": "https://www.axios.com/2024/11/25/microsoft-ai-training-data-privacy",
     "discord_url": null
-  },
-  {
-    "id": 148,
-    "title": "How Adobe Uses User Data to Train AI Systems",
-    "description": "This article from Axios explores how Adobe collects and utilizes user data to train its artificial intelligence models. It discusses privacy implications, the types of data involved, and what controls users have over their personal information within Adobe's AI tools.",
-    "date": "2025-04-28",
-    "author": "ireney_67517",
-    "channel": "📚ai-philosophy-ethics",
-    "tag": "News/Article",
-    "resource_url": "https://www.axios.com/2024/11/12/adobe-data-ai-training",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1366472779175563284"
   },
   {
     "id": 149,
@@ -1702,17 +1438,6 @@
     "channel": "🏘general-chat",
     "tag": "News/Article",
     "resource_url": "https://tse3.mm.bing.net/th?id=OIP.E-A4jtXYBSpfPsdZ1xfI1AHaHa&pid=Api)](https://www.pharma-iq.com/business-development/interviews/transforming-healthcare-with-ai-removing-inefficiencies-and-supporting-patient-centred-care",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1366454610260262912"
-  },
-  {
-    "id": 156,
-    "title": "AI Saves Patient's Life After Terminal Diagnosis",
-    "description": "This article tells the inspirational story of a man who was told by doctors that he would not survive, but whose life was ultimately saved through the use of artificial intelligence in healthcare. It highlights the transformative potential of AI in improving patient outcomes and revolutionizing medical care.",
-    "date": "2025-04-28",
-    "author": "darkgago",
-    "channel": "🏘general-chat",
-    "tag": "News/Article",
-    "resource_url": "https://www.tcnjsignalnews.com/article/2025/04/ai-saves-life-of-man-who-previously-thought-he-was-going-to-die",
     "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1366454610260262912"
   },
   {
@@ -2145,17 +1870,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1354193330854035617/1364755402314485811"
   },
   {
-    "id": 196,
-    "title": "Generative AI Accelerates Entry-Level Career Progress Across Industries",
-    "description": "This resource explores how generative AI is not only transforming industries but also creating new entry-level job opportunities and accelerating career advancement. It highlights the increased demand for skilled workers in sectors like data centers and semiconductors, countering concerns about widespread job displacement.",
-    "date": "2025-04-24",
-    "author": "antoine789",
-    "channel": "💼career-opportunities",
-    "tag": "News/Article",
-    "resource_url": "https://www.capgemini.com/ca-en/news/generative-ai-expected-to-accelerate-entry-level-career-progress-across-industries/),",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1354193330854035617/1364755402314485811"
-  },
-  {
     "id": 197,
     "title": "Premium Quality Free API Courses (LinkedIn Post)",
     "description": "This LinkedIn post shares a curated list of high-quality, free courses focused on APIs, making it a useful resource for anyone looking to learn about API development and integration.",
@@ -2274,50 +1988,6 @@
     "channel": "🏛netarch-general",
     "tag": "Tutorial",
     "resource_url": "https://www.youtube.com/watch?v=uwAqEzhyjtw",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1360692679825948843/1364611387791380481"
-  },
-  {
-    "id": 208,
-    "title": "Git Tutorial for Beginners: Complete Guide",
-    "description": "This beginner-friendly video provides a comprehensive introduction to Git, covering essential commands and concepts for version control. Ideal for those new to Git, it walks viewers through setup, basic operations, and practical usage scenarios.",
-    "date": "2025-04-23",
-    "author": "oscarsan.chez",
-    "channel": "🏛netarch-general",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/hrTQipWp6co",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1360692679825948843/1364611387791380481"
-  },
-  {
-    "id": 209,
-    "title": "Git Tutorial for Beginners (YouTube - Tech with Tim)",
-    "description": "This video provides a beginner-friendly introduction to Git, covering essential concepts and commands needed for version control. Ideal for newcomers, it walks through the basics of initializing repositories, committing changes, and collaborating using Git.",
-    "date": "2025-04-23",
-    "author": "oscarsan.chez",
-    "channel": "🏛netarch-general",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/tRZGeaHPoaw",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1360692679825948843/1364611387791380481"
-  },
-  {
-    "id": 210,
-    "title": "Git Tutorial for Beginners: Complete Guide",
-    "description": "This video provides a comprehensive introduction to Git, covering fundamental concepts and basic commands. It's suitable for beginners looking to understand version control workflows and start using Git in their projects.",
-    "date": "2025-04-23",
-    "author": "oscarsan.chez",
-    "channel": "🏛netarch-general",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/RGOj5yH7evk",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1360692679825948843/1364611387791380481"
-  },
-  {
-    "id": 211,
-    "title": "Resource: <@546559083357143044> <@673901899837341736> This is what Dr.Sanchez gave as the next",
-    "description": "<@546559083357143044> <@673901899837341736> This is what Dr.Sanchez gave as the next learning items in preperation for the next set of videos:\n\nHere are the videos for next week:\nCommand Line Crash Course For Beginners\nhttps://www.youtube.com/watch?v=uwAqEzhyjtw\n\nGit Tutorial for Beginners\n(Choose any of the three below)\nhttps://youtu.be/hrTQipWp6co\nhttps://youtu.be/tRZGeaHPoaw\nhttps://youtu.be/RGOj5yH7evk\n\nPython\nhttps://youtu.be/_uQrJ0TkZlc",
-    "date": "2025-04-23",
-    "author": "oscarsan.chez",
-    "channel": "🏛netarch-general",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/_uQrJ0TkZlc",
     "discord_url": "https://discord.com/channels/1353058864810950737/1360692679825948843/1364611387791380481"
   },
   {
@@ -2596,17 +2266,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1354193330854035617/1364049065829994607"
   },
   {
-    "id": 237,
-    "title": "Deloitte Human Capital Trends Report",
-    "description": "This annual report by Deloitte explores global trends in human capital, offering insights into workforce dynamics, organizational strategies, and the evolving relationship between employers and employees. It is a valuable resource for understanding current and future challenges in human resources and talent management.",
-    "date": "2025-04-22",
-    "author": "michaelkeady_92138",
-    "channel": "💼career-opportunities",
-    "tag": "News/Article",
-    "resource_url": "https://www2.deloitte.com/us/en/insights/focus/human-capital-trends.html",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1354193330854035617/1364049065829994607"
-  },
-  {
     "id": 238,
     "title": "Humanoid Robots Complete Half-Marathon Alongside Human Runners in China",
     "description": "In a groundbreaking event, humanoid robots ran alongside humans in a Chinese half-marathon, successfully finishing the race. This milestone highlights significant advances in artificial intelligence and robotics, demonstrating the growing ability of robots to participate in complex, real-world activities.",
@@ -2637,17 +2296,6 @@
     "channel": "🏘admin-general-chat",
     "tag": "Tutorial",
     "resource_url": "https://drive.google.com/drive/folders/1Obh2wNE7LtuwGR9KnLhV489gRzklVprm",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353443443925582014/1363953608126763119"
-  },
-  {
-    "id": 241,
-    "title": "Dr. Abel Sanchez: Introductory No-Code Automation Videos",
-    "description": "This resource features a series of videos by Dr. Abel Sanchez focused on no-code approaches to automation. Ideal for those interested in building specialized agents and streamlining Discord platform workflows without programming experience.",
-    "date": "2025-04-21",
-    "author": "rodrigoreyesjara",
-    "channel": "🏘admin-general-chat",
-    "tag": "Tutorial",
-    "resource_url": "https://www.youtube.com/watch?v=lifUPf4lbUM",
     "discord_url": "https://discord.com/channels/1353058864810950737/1353443443925582014/1363953608126763119"
   },
   {
@@ -2838,83 +2486,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1363476489508618262"
   },
   {
-    "id": 259,
-    "title": "Crash Course: How Computers Work",
-    "description": "This video offers a beginner-friendly introduction to computer systems, explaining fundamental concepts and how modern computers operate. It's an excellent starting point for anyone interested in understanding the basics of computing before diving into more advanced system-building topics.",
-    "date": "2025-04-20",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/tRZGeaHPoaw",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1363476489508618262"
-  },
-  {
-    "id": 260,
-    "title": "Python Programming Tutorial – Full Course for Beginners",
-    "description": "This comprehensive YouTube tutorial provides a complete introduction to Python programming, covering fundamental concepts and practical applications. Ideal for beginners, the course guides learners through the basics to more advanced topics, helping build a solid foundation in Python.",
-    "date": "2025-04-20",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/_uQrJ0TkZlc",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1363476489508618262"
-  },
-  {
-    "id": 261,
-    "title": "Introduction to System Design Concepts",
-    "description": "This video provides foundational insights into building scalable systems, making it an excellent starting point for those interested in system design. Recommended as a key learning resource while comprehensive courses in this area continue to emerge.",
-    "date": "2025-04-20",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/7S_tz1z_5bA",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1363476489508618262"
-  },
-  {
-    "id": 262,
-    "title": "How to Build a Modern Computer from First Principles",
-    "description": "This YouTube video guides viewers through the fundamental concepts and practical steps involved in building a computer system from scratch. Ideal for beginners and those interested in understanding the underlying principles of computer architecture and system design.",
-    "date": "2025-04-20",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/HW29067qVWk",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1363476489508618262"
-  },
-  {
-    "id": 263,
-    "title": "How to Build Systems: A Primer",
-    "description": "This video offers an introduction to the principles and practical steps involved in building systems, making it ideal for beginners seeking to understand foundational concepts as abstraction and tool complexity increase. Recommended as a starting point for those looking to develop system-building skills.",
-    "date": "2025-04-20",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/QUT1VHiLmmI",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1363476489508618262"
-  },
-  {
-    "id": 264,
-    "title": "Introduction to System Design Fundamentals",
-    "description": "This video provides a beginner-friendly overview of system design concepts, offering practical guidance for those interested in building scalable systems. Ideal for learners seeking foundational knowledge before enrolling in comprehensive courses.",
-    "date": "2025-04-20",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/3Xc3CA655Y4",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1363476489508618262"
-  },
-  {
-    "id": 265,
-    "title": "System Design Basics: Introduction Video",
-    "description": "This YouTube video provides a foundational overview of system design, making it a useful starting point for those interested in understanding how complex systems are built and scaled. Recommended as an initial resource for learners as the demand for system design skills grows.",
-    "date": "2025-04-20",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://youtu.be/vmEHCJofslg",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1363476489508618262"
-  },
-  {
     "id": 266,
     "title": "Getting Started with OpenAI Codex CLI",
     "description": "This official guide introduces OpenAI Codex CLI, an open-source command-line coding agent that operates in a secure, sandboxed environment. Learn how to set up, interact with, and automate coding tasks using Codex CLI to streamline app development.",
@@ -2923,17 +2494,6 @@
     "channel": "🗞genai-news",
     "tag": "Tutorial",
     "resource_url": "https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1362581139557978182/1363306289148465353"
-  },
-  {
-    "id": 267,
-    "title": "OpenAI Codex CLI: In-Depth Overview and Tutorial",
-    "description": "This video provides a comprehensive walkthrough of OpenAI's Codex CLI, an open-source tool for coding via the command line in a secure, sandboxed environment. Learn how to interact with Codex CLI manually or automate workflows to build complete applications.",
-    "date": "2025-04-20",
-    "author": "julioverne74",
-    "channel": "🗞genai-news",
-    "tag": "Tutorial",
-    "resource_url": "https://www.youtube.com/watch?v=R_FtLwgz-Ew&t=693s",
     "discord_url": "https://discord.com/channels/1353058864810950737/1362581139557978182/1363306289148465353"
   },
   {
@@ -3344,17 +2904,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1361406625193263297"
   },
   {
-    "id": 305,
-    "title": "Company Uses Deepfake Technology to Reunite Employees with Loved Ones for the Holidays",
-    "description": "This article highlights a heartwarming initiative where a company utilized deepfake technology to create virtual hugs between employees and the people they missed most during the holidays, demonstrating a positive and meaningful application of AI. The story showcases how technology can foster emotional connections and spread joy.",
-    "date": "2025-04-14",
-    "author": "laura.neder",
-    "channel": "🏘general-chat",
-    "tag": "News/Article",
-    "resource_url": "https://www.goodnewsnetwork.org/company-surprises-workers-with-amazing-hugs-from-people-they-most-wished-to-see-for-holidays-watch/)",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1361406625193263297"
-  },
-  {
     "id": 306,
     "title": "Ed Shares a Life-Changing Story – Video Interview",
     "description": "Watch Ed recount a powerful story and reflect on its profound impact on his life in this heartfelt video. The discussion, praised for its emotional depth, also features a mention of ElevenLabs and has resonated deeply with viewers.",
@@ -3476,17 +3025,6 @@
     "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1361288493703233720"
   },
   {
-    "id": 317,
-    "title": "AI for Good Summit 2025 Speakers",
-    "description": "This page lists the speakers for the AI for Good Summit 2025, an event organized by the UN's ITU to showcase innovative AI applications and foster global collaboration. The resource provides information on prominent experts and leaders participating in the summit, valuable for those interested in AI's role in addressing global challenges.",
-    "date": "2025-04-14",
-    "author": "marie007532",
-    "channel": "🏘general-chat",
-    "tag": "Event",
-    "resource_url": "https://aiforgood.itu.int/summit25/#summit-speakers.",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353058864810950740/1361288493703233720"
-  },
-  {
     "id": 318,
     "title": "Sesh Bot Manual",
     "description": "This manual provides comprehensive instructions and detailed steps for using and managing the Sesh bot, a popular Discord scheduling and event management tool. It is a valuable resource for Discord managers seeking guidance on setup and advanced features.",
@@ -3517,39 +3055,6 @@
     "channel": "📖resources-library",
     "tag": "Tutorial",
     "resource_url": "https://www.deeplearning.ai/courses/generative-ai-for-everyone/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1360931327574278275"
-  },
-  {
-    "id": 321,
-    "title": "AI Python for Beginners",
-    "description": "This is a short course from DeepLearning.AI designed to introduce beginners to using Python for AI applications. It covers foundational Python programming concepts with a focus on their application in artificial intelligence.",
-    "date": "2025-04-13",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://www.deeplearning.ai/short-courses/ai-python-for-beginners/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1360931327574278275"
-  },
-  {
-    "id": 322,
-    "title": "ChatGPT Prompt Engineering for Developers",
-    "description": "This is a short course by DeepLearning.AI that teaches developers how to effectively engineer prompts for ChatGPT, covering best practices and practical techniques for leveraging large language models in applications.",
-    "date": "2025-04-13",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1360931327574278275"
-  },
-  {
-    "id": 323,
-    "title": "Building Systems with the ChatGPT API",
-    "description": "This short course from DeepLearning.AI teaches how to design and implement applications using the ChatGPT API, covering practical system-building techniques and best practices for integrating large language models into real-world workflows.",
-    "date": "2025-04-13",
-    "author": "julioverne74",
-    "channel": "📖resources-library",
-    "tag": "Tutorial",
-    "resource_url": "https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/",
     "discord_url": "https://discord.com/channels/1353058864810950737/1353449106537713756/1360931327574278275"
   },
   {
@@ -3617,17 +3122,6 @@
     "tag": "News/Article",
     "resource_url": "https://www.economist.com/by-invitation/2025/04/10/to-keep-on-top-of-ai-focus-on-the-points-where-it-touches-the-outside-world-writes-martin-chavez?giftId=714ca349-7cab-496f-aaf4-671d95216254&utm_campaign=gifted_article",
     "discord_url": "https://discord.com/channels/1353058864810950737/1353448986408779877/1360227672038445197"
-  },
-  {
-    "id": 330,
-    "title": "Gen AI Global 2.0 Informational Session – Part 1 (Recording)",
-    "description": "This is a video recording of the Gen AI Global 2.0 Informational Session, providing insights and updates on global initiatives related to generative AI. It serves as a valuable resource for those interested in the latest developments and discussions in the field of AI ethics and global collaboration.",
-    "date": "2025-05-10",
-    "author": "oscarsan.chez",
-    "channel": "🎥meeting-recordings",
-    "tag": "Event",
-    "resource_url": "https://fathom.video/share/L3ikJuXy_uFwV4D2LMKc6WDQJpHNpnLg",
-    "discord_url": "https://discord.com/channels/1353058864810950737/1364289798340349953/1370835825943773234"
   },
   {
     "id": 331,
