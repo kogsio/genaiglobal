@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <div w3-include-html="head-section.html"></div>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resources</title>
@@ -58,10 +59,10 @@
 </head>
 <body>
     <div class="container">
+        <div w3-include-html="top-panel.html"></div>
         <header>
             <img src="logo.png" alt="Gen AI Global Logo" class="logo">
         </header>
-        <div w3-include-html="top-panel.html"></div>
         <main>
             <h1>Resources</h1>
             <p>Access AI-related articles, case studies, and learning materials.</p>
@@ -83,6 +84,9 @@
     </div>
 
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script>
+        w3.includeHTML();
+    </script>
     <script>
         // Fetch resources data and populate dropdown and resources list
         fetch('resources-data.json')
