@@ -1,0 +1,29 @@
+/* Custom overrides for the Gen AI Global redesign.  
+   These styles complement Tailwind CSS and handle subtle transitions,  
+   dark-mode tweaks, and component-specific adjustments. */
+
+/* Smooth color transitions across theme changes */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure the navigation links stack nicely on small screens when toggled */
+#nav-links.flex {
+  flex-direction: column;
+}
+
+/* Hide the mobile menu by default on small screens; Tailwind handles larger screens */
+#nav-links.hidden {
+  display: none;
+}
+
+/* Light and dark background overrides for sections */
+section:nth-of-type(odd) {
+  background-color: transparent;
+}
+section:nth-of-type(even) {
+  background-color: rgba(243, 244, 246, 0.6);
+}
+html.dark section:nth-of-type(even) {
+  background-color: rgba(31, 41, 55, 0.6);
+}
