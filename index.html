@@ -1,159 +1,218 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" data-theme="mytheme">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gen AI Global</title>
-    <!-- Preconnect for fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- DaisyUI and Tailwind via CDN -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.1.4/dist/full.min.css"
       rel="stylesheet"
+      type="text/css"
     />
-    <!-- Tailwind via CDN with custom theme configuration. 
-         We define our palette in the config script below. -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              maroon: '#750014',
-              grayish: '#8B959E',
-              purple: '#B74EF7',
-              black: '#000000',
-              white: '#FFFFFF'
-            }
-          }
-        }
-      };
-    </script>
-    <!-- Custom stylesheet for overrides and layout tweaks -->
-    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Custom theme definitions.  DaisyUI reads CSS variables on the html
+         element to derive colours for the primary, secondary, accent, etc.
+         Two themes are defined here: `mytheme` for light mode and
+         `mytheme-dark` for dark mode.  The variables follow DaisyUI’s
+         naming convention.  Feel free to tweak the shade values to match
+         the corporate palette exactly. -->
+    <style>
+      html[data-theme="mytheme"] {
+        /* base colours */
+        --b1: 255 255 255; /* background */
+        --b2: 249 250 251;
+        --b3: 243 244 246;
+        --bc: 17 24 39; /* base content (text) */
+        /* primary maroon (#750014) */
+        --p: 117 0 20;
+        --pf: 255 255 255;
+        /* secondary grey (#8B959E) */
+        --s: 139 149 158;
+        --sf: 0 0 0;
+        /* accent purple (#B74EF7) */
+        --a: 183 78 247;
+        --af: 255 255 255;
+        /* neutral black */
+        --n: 0 0 0;
+        --nf: 255 255 255;
+      }
+      html[data-theme="mytheme-dark"] {
+        /* swap light/dark backgrounds */
+        --b1: 17 24 39;
+        --b2: 31 41 55;
+        --b3: 49 60 78;
+        --bc: 229 231 235;
+        /* reuse same brand colours for consistency */
+        --p: 117 0 20;
+        --pf: 255 255 255;
+        --s: 139 149 158;
+        --sf: 0 0 0;
+        --a: 183 78 247;
+        --af: 255 255 255;
+        --n: 255 255 255;
+        --nf: 0 0 0;
+      }
+    </style>
+    <script type="module" defer src="script.js"></script>
   </head>
-  <body
-    class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-200 dark:from-gray-900 dark:to-gray-800 text-black dark:text-white font-[Inter] antialiased"
-  >
-    <!-- Navigation -->
-    <nav
-      id="navbar"
-      class="fixed top-0 left-0 w-full flex items-center justify-between px-6 py-4 backdrop-blur-md z-50"
-    >
-      <div class="flex items-center space-x-3">
-        <picture>
-          <source srcset="logo.webp" type="image/webp" />
+  <body class="font-sans leading-relaxed">
+    <!-- Top navigation bar -->
+    <nav class="navbar bg-base-100 shadow-md sticky top-0 z-50">
+      <div class="flex-1">
+        <a href="index.html" class="flex items-center gap-2">
           <img
-            src="logo.png"
-            alt="Gen AI Global Logo"
-            class="h-10 w-auto select-none"
+            src="https://genaiglobal.org/logo.png"
+            alt="Gen AI Global logo"
+            class="h-8 w-8"
           />
-        </picture>
-        <span id="site-title" class="text-maroon text-xl font-bold"></span>
+          <span class="text-xl font-bold">Gen AI Global</span>
+        </a>
       </div>
-      <!-- Mobile menu button -->
-      <button
-        id="menu-toggle"
-        class="sm:hidden text-maroon focus:outline-none"
-        aria-label="Open menu"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          class="w-8 h-8"
+      <!-- Desktop menu -->
+      <div class="hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="spotlight.html">Spotlight</a></li>
+          <li><a href="log-in.html">Log In</a></li>
+        </ul>
+      </div>
+      <!-- Theme toggle -->
+      <div class="flex-none">
+        <button
+          aria-label="Toggle dark mode"
+          class="btn btn-ghost btn-circle"
+          onclick="import('./script.js').then(m => m.toggleDarkMode())"
         >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
-      </button>
-      <ul
-        id="nav-links"
-        class="hidden sm:flex space-x-6 text-grayish font-medium"
-      ></ul>
-      <!-- Dark mode toggle -->
-      <div class="ml-4">
-        <label class="cursor-pointer" aria-label="Toggle dark mode">
-          <input
-            type="checkbox"
-            id="dark-mode-toggle"
-            class="hidden"
-          />
           <svg
-            id="sun-icon"
-            class="block w-6 h-6 fill-current text-maroon dark:hidden"
             xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
             viewBox="0 0 24 24"
+            stroke="currentColor"
           >
             <path
-              d="M12 4.354a1 1 0 0 1 1 1V7a1 1 0 1 1-2 0V5.354a1 1 0 0 1 1-1zM18.364 5.636a1 1 0 0 1 1.414 1.414l-1.414 1.414a1 1 0 0 1-1.414-1.414l1.414-1.414zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm6.646 6.646a1 1 0 0 1 1.414 1.414l-1.414 1.414a1 1 0 1 1-1.414-1.414l1.414-1.414zM12 16.646a1 1 0 0 1 1 1V19a1 1 0 1 1-2 0v-1.354a1 1 0 0 1 1-1zM5.636 18.364a1 1 0 0 1-1.414-1.414l1.414-1.414a1 1 0 1 1 1.414 1.414l-1.414 1.414zM7 12a1 1 0 0 1-1 1H4.354a1 1 0 0 1 0-2H6a1 1 0 0 1 1 1z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 3v1m0 16v1m8.66-12.34l-.7.7M5.34 19.66l-.7-.7M21 12h-1M4 12H3m15.66 7.34l-.7-.7M7.34 4.34l-.7.7M16 12a4 4 0 11-8 0 4 4 0 018 0z"
             />
           </svg>
-          <svg
-            id="moon-icon"
-            class="hidden w-6 h-6 fill-current text-purple dark:block"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
+        </button>
+        <!-- mobile menu toggle -->
+        <div class="dropdown dropdown-end lg:hidden">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
           >
-            <path
-              d="M21.752 15.002A9 9 0 1 1 12 3v0a7 7 0 0 0 9.752 12.002z"
-            />
-          </svg>
-        </label>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="spotlight.html">Spotlight</a></li>
+            <li><a href="log-in.html">Log In</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <!-- Hero section -->
-    <header class="flex items-center justify-center pt-32 pb-20 px-4">
-      <div class="text-center max-w-3xl">
-        <h1
-          id="hero-headline"
-          class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-maroon"
-        ></h1>
-        <p
-          id="hero-subheadline"
-          class="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8"
-        ></p>
-        <a
-          id="hero-cta"
-          href="#"
-          class="inline-block px-8 py-3 bg-maroon text-white rounded-full shadow-lg hover:bg-purple transition-colors duration-300"
-        ></a>
+    <section class="py-20 bg-base-200">
+      <div class="max-w-5xl mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+          Welcome to Gen AI Global
+        </h1>
+        <p class="text-lg md:text-xl mb-8">
+          Transforming the future through artificial intelligence
+        </p>
+        <a href="get-involved.html" class="btn btn-primary btn-lg">
+          Get Involved
+        </a>
       </div>
-    </header>
+    </section>
 
     <!-- Mission section -->
-    <section id="mission" class="py-16 px-4">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-4 text-maroon"></h2>
-        <p id="mission-text" class="text-lg text-gray-700 dark:text-gray-300"></p>
+    <section class="py-16">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4">Our Mission</h2>
+        <p class="text-lg">
+          Democratize AI knowledge across industries to foster collaboration,
+          accelerate innovation, and drive cross‑sector growth.
+        </p>
       </div>
     </section>
 
     <!-- Features section -->
-    <section id="features" class="py-16 px-4">
-      <div
-        class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
-      ></div>
+    <section class="py-16 bg-base-200">
+      <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">What We Offer</h2>
+        <div class="grid gap-8 md:grid-cols-3">
+          <div class="card bg-base-100 shadow-lg hover:shadow-xl transition-all">
+            <div class="card-body">
+              <h3 class="card-title">Innovation</h3>
+              <p>
+                Pushing the boundaries of what’s possible with AI. We connect
+                innovators, entrepreneurs and organisations to share best
+                practices and co‑create transformative projects.
+              </p>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-lg hover:shadow-xl transition-all">
+            <div class="card-body">
+              <h3 class="card-title">Global Impact</h3>
+              <p>
+                Creating solutions that benefit humanity worldwide. Our
+                network bridges continents, harnessing collective power to
+                drive responsible AI development.
+              </p>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-lg hover:shadow-xl transition-all">
+            <div class="card-body">
+              <h3 class="card-title">Expertise</h3>
+              <p>
+                Led by industry leaders in artificial intelligence. Our
+                community offers deep technical knowledge, mentorship and
+                thought leadership to steer the future of generative AI.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
-    <footer
-      class="bg-gray-100 dark:bg-gray-900 text-center py-6 border-t border-gray-200 dark:border-gray-700"
-    >
-      <p class="text-gray-600 dark:text-gray-400">
-        &copy;
-        <span id="year"></span>
-        Gen AI Global. All rights reserved.
-      </p>
+    <footer class="bg-base-300 text-base-content py-6">
+      <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p>&copy; 2025 Gen AI Global. All rights reserved.</p>
+        <div class="flex gap-4">
+          <a href="https://github.com/oscarsangenai/genaiglobal-Test" target="_blank" class="link link-hover">GitHub</a>
+          <a href="https://genaiglobal.org" target="_blank" class="link link-hover">Original Site</a>
+        </div>
+      </div>
     </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>
