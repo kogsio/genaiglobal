@@ -1,67 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
-<div w3-include-html="head-section.html"></div>
-<body>
-    <div class="container">
-        <div w3-include-html="top-panel.html"></div>
-        <header>
-            <img src="logo.png" alt="Gen AI Global Logo" class="logo">
-        </header>
-        <main>
-            <div class="hero-section">
-                <div class="hero-content">
-                    <h1>Welcome to Gen AI Global</h1>
-                    <p class="subtitle">Transforming the future through artificial intelligence</p>
-                </div>
-            </div>
-            <div class="coming-soon">
-                <h2>Our Mission</h2>
-                <p>Democratize AI knowledge across industries to foster collaboration, accelerate innovation, and drive cross-sector growth.</p>
-            </div>
-            <div class="features">
-                <div class="feature">
-                    <h3>Innovation</h3>
-                    <p>Pushing the boundaries of what's possible with AI</p>
-                </div>
-                <div class="feature">
-                    <h3>Global Impact</h3>
-                    <p>Creating solutions that benefit humanity worldwide</p>
-                </div>
-                <div class="feature">
-                    <h3>Expertise</h3>
-                    <p>Led by industry leaders in artificial intelligence</p>
-                </div>
-            </div>
-
-        <!-- Welcome Video Section -->
-        <div class="welcome-video">
-            <h2>Welcome Video</h2>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7325375681414971392?compact=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        </div>
-
-        </main>
-        <footer>
-            <p>&copy; 2024 Gen AI Global. All rights reserved.</p>
-        </footer>
-    </div>
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gen AI Global</title>
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind via CDN with custom theme configuration. 
+         We define our palette in the config script below. -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        w3.includeHTML();
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              maroon: '#750014',
+              grayish: '#8B959E',
+              purple: '#B74EF7',
+              black: '#000000',
+              white: '#FFFFFF'
+            }
+          }
+        }
+      };
     </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const nav = document.querySelector('.top-nav');
+    <!-- Custom stylesheet for overrides and layout tweaks -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-200 dark:from-gray-900 dark:to-gray-800 text-black dark:text-white font-[Inter] antialiased"
+  >
+    <!-- Navigation -->
+    <nav
+      id="navbar"
+      class="fixed top-0 left-0 w-full flex items-center justify-between px-6 py-4 backdrop-blur-md z-50"
+    >
+      <div class="flex items-center space-x-3">
+        <picture>
+          <source srcset="logo.webp" type="image/webp" />
+          <img
+            src="logo.png"
+            alt="Gen AI Global Logo"
+            class="h-10 w-auto select-none"
+          />
+        </picture>
+        <span id="site-title" class="text-maroon text-xl font-bold"></span>
+      </div>
+      <!-- Mobile menu button -->
+      <button
+        id="menu-toggle"
+        class="sm:hidden text-maroon focus:outline-none"
+        aria-label="Open menu"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          class="w-8 h-8"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+      <ul
+        id="nav-links"
+        class="hidden sm:flex space-x-6 text-grayish font-medium"
+      ></ul>
+      <!-- Dark mode toggle -->
+      <div class="ml-4">
+        <label class="cursor-pointer" aria-label="Toggle dark mode">
+          <input
+            type="checkbox"
+            id="dark-mode-toggle"
+            class="hidden"
+          />
+          <svg
+            id="sun-icon"
+            class="block w-6 h-6 fill-current text-maroon dark:hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 4.354a1 1 0 0 1 1 1V7a1 1 0 1 1-2 0V5.354a1 1 0 0 1 1-1zM18.364 5.636a1 1 0 0 1 1.414 1.414l-1.414 1.414a1 1 0 0 1-1.414-1.414l1.414-1.414zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm6.646 6.646a1 1 0 0 1 1.414 1.414l-1.414 1.414a1 1 0 1 1-1.414-1.414l1.414-1.414zM12 16.646a1 1 0 0 1 1 1V19a1 1 0 1 1-2 0v-1.354a1 1 0 0 1 1-1zM5.636 18.364a1 1 0 0 1-1.414-1.414l1.414-1.414a1 1 0 1 1 1.414 1.414l-1.414 1.414zM7 12a1 1 0 0 1-1 1H4.354a1 1 0 0 1 0-2H6a1 1 0 0 1 1 1z"
+            />
+          </svg>
+          <svg
+            id="moon-icon"
+            class="hidden w-6 h-6 fill-current text-purple dark:block"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M21.752 15.002A9 9 0 1 1 12 3v0a7 7 0 0 0 9.752 12.002z"
+            />
+          </svg>
+        </label>
+      </div>
+    </nav>
 
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) { // Adjusted threshold for better visibility
-                    nav.style.backgroundColor = '#ffffff'; // Solid color when scrolling
-                    nav.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)'; // Add shadow
-                } else {
-                    nav.style.backgroundColor = 'transparent'; // Transparent when at the top
-                    nav.style.boxShadow = 'none'; // Remove shadow
-                }
-            });
-        });
-    </script>
-</body>
+    <!-- Hero section -->
+    <header class="flex items-center justify-center pt-32 pb-20 px-4">
+      <div class="text-center max-w-3xl">
+        <h1
+          id="hero-headline"
+          class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-maroon"
+        ></h1>
+        <p
+          id="hero-subheadline"
+          class="text-lg sm:text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8"
+        ></p>
+        <a
+          id="hero-cta"
+          href="#"
+          class="inline-block px-8 py-3 bg-maroon text-white rounded-full shadow-lg hover:bg-purple transition-colors duration-300"
+        ></a>
+      </div>
+    </header>
+
+    <!-- Mission section -->
+    <section id="mission" class="py-16 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4 text-maroon"></h2>
+        <p id="mission-text" class="text-lg text-gray-700 dark:text-gray-300"></p>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section id="features" class="py-16 px-4">
+      <div
+        class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
+      ></div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-gray-100 dark:bg-gray-900 text-center py-6 border-t border-gray-200 dark:border-gray-700"
+    >
+      <p class="text-gray-600 dark:text-gray-400">
+        &copy;
+        <span id="year"></span>
+        Gen AI Global. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

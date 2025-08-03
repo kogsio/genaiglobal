@@ -1,0 +1,39 @@
+{
+  "siteTitle": "Gen AI Global",
+  "hero": {
+    "headline": "Welcome to Gen AI Global",
+    "subheadline": "Transforming the future through artificial intelligence",
+    "callToAction": {
+      "text": "Get Involved",
+      "url": "get-involved.html"
+    }
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "Democratize AI knowledge across industries to foster collaboration, accelerate innovation, and drive cross-sector growth."
+  },
+  "features": [
+    {
+      "title": "Innovation",
+      "text": "Pushing the boundaries of what's possible with AI"
+    },
+    {
+      "title": "Global Impact",
+      "text": "Creating solutions that benefit humanity worldwide"
+    },
+    {
+      "title": "Expertise",
+      "text": "Led by industry leaders in artificial intelligence"
+    }
+  ],
+  "nav": [
+    { "name": "Home", "url": "index.html" },
+    { "name": "About Us", "url": "about-us.html" },
+    { "name": "Community", "url": "community.html" },
+    { "name": "Events", "url": "events.html" },
+    { "name": "Resources", "url": "resources.html" },
+    { "name": "Get Involved", "url": "get-involved.html" },
+    { "name": "Spotlight", "url": "spotlight.html" },
+    { "name": "Log In", "url": "log-in.html" }
+  ]
+}
