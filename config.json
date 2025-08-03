@@ -1,11 +1,13 @@
 {
   "siteTitle": "Gen AI Global",
   "hero": {
-    "headline": "Transforming the Future Through AI",
-    "subheadline": "Accelerating innovation and fostering collaboration across sectors.",
+    "headline": "Welcome to Gen AI Global",
+    "subheadline": "Transforming the future through artificial intelligence",
     "callToAction": {
       "text": "Get Involved",
       "url": "get-involved.html"
+    }
+  },      "url": "get-involved.html"
     }
   },
   "mission": {
