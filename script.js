@@ -7,8 +7,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   // Load configuration and populate the page
-  fetch('config.json')
-    .then((res) => res.json())
+fetch('new_config.json')    .then((res) => res.json())
     .then((config) => {
       // Site title
       const siteTitleEl = document.getElementById('site-title');
