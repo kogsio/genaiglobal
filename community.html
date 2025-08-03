@@ -1,40 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <div w3-include-html="head-section.html"></div>
-</head>
-<body>
-    <div class="container">
-        <div w3-include-html="top-panel.html"></div>
-        <header>
-            <img src="logo.png" alt="Gen AI Global Logo" class="logo">
-        </header>
-        <main>
-            <h1>Community</h1>
-            <p>Learn more about our members and how to join the network.</p>
-        </main>
-        <footer>
-            <p>&copy; 2024 Gen AI Global. All rights reserved.</p>
-        </footer>
-    </div>
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <script>
-        w3.includeHTML();
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const nav = document.querySelector('.top-nav');
+<html lang="en" data-theme="mytheme">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Community – Gen AI Global</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.1.4/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      html[data-theme="mytheme"] {
+        --b1: 255 255 255;
+        --b2: 249 250 251;
+        --b3: 243 244 246;
+        --bc: 17 24 39;
+        --p: 117 0 20;
+        --pf: 255 255 255;
+        --s: 139 149 158;
+        --sf: 0 0 0;
+        --a: 183 78 247;
+        --af: 255 255 255;
+        --n: 0 0 0;
+        --nf: 255 255 255;
+      }
+      html[data-theme="mytheme-dark"] {
+        --b1: 17 24 39;
+        --b2: 31 41 55;
+        --b3: 49 60 78;
+        --bc: 229 231 235;
+        --p: 117 0 20;
+        --pf: 255 255 255;
+        --s: 139 149 158;
+        --sf: 0 0 0;
+        --a: 183 78 247;
+        --af: 255 255 255;
+        --n: 255 255 255;
+        --nf: 0 0 0;
+      }
+    </style>
+    <script type="module" defer src="script.js"></script>
+  </head>
+  <body class="font-sans leading-relaxed">
+    <!-- Navigation bar -->
+    <nav class="navbar bg-base-100 shadow-md sticky top-0 z-50">
+      <div class="flex-1">
+        <a href="index.html" class="flex items-center gap-2">
+          <img src="https://genaiglobal.org/logo.png" alt="Gen AI Global logo" class="h-8 w-8" />
+          <span class="text-xl font-bold">Gen AI Global</span>
+        </a>
+      </div>
+      <div class="hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="community.html" class="active">Community</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="spotlight.html">Spotlight</a></li>
+          <li><a href="log-in.html">Log In</a></li>
+        </ul>
+      </div>
+      <div class="flex-none">
+        <button
+          aria-label="Toggle dark mode"
+          class="btn btn-ghost btn-circle"
+          onclick="import('./script.js').then(m => m.toggleDarkMode())"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 3v1m0 16v1m8.66-12.34l-.7.7M5.34 19.66l-.7-.7M21 12h-1M4 12H3m15.66 7.34l-.7-.7M7.34 4.34l-.7.7M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+            />
+          </svg>
+        </button>
+        <div class="dropdown dropdown-end lg:hidden">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+          >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="community.html" class="active">Community</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+            <li><a href="spotlight.html">Spotlight</a></li>
+            <li><a href="log-in.html">Log In</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) { // Adjusted threshold for better visibility
-                    nav.style.backgroundColor = '#ffffff'; // Solid color when scrolling
-                    nav.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)'; // Add shadow
-                } else {
-                    nav.style.backgroundColor = 'transparent'; // Transparent when at the top
-                    nav.style.boxShadow = 'none'; // Remove shadow
-                }
-            });
-        });
-    </script>
-</body>
+    <section class="py-16 bg-base-200 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Community</h1>
+      <p class="text-lg md:text-xl">
+        Learn more about our members and how to join the network
+      </p>
+    </section>
+
+    <section class="py-16">
+      <div class="max-w-4xl mx-auto px-4 text-center space-y-6">
+        <p>
+          Our community is the heart of Gen AI Global. We bring together
+          diverse voices from around the world – researchers, developers,
+          entrepreneurs and enthusiasts – to collaborate and share
+          knowledge. Join our Discord server, attend our weekly chats
+          and become part of a thriving ecosystem dedicated to
+          responsible and innovative AI.
+        </p>
+        <a
+          href="get-involved.html"
+          class="btn btn-primary"
+        >
+          Join the Community
+        </a>
+      </div>
+    </section>
+
+    <footer class="bg-base-300 text-base-content py-6">
+      <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p>&copy; 2025 Gen AI Global. All rights reserved.</p>
+        <div class="flex gap-4">
+          <a href="https://github.com/oscarsangenai/genaiglobal-Test" target="_blank" class="link link-hover">GitHub</a>
+          <a href="https://genaiglobal.org" target="_blank" class="link link-hover">Original Site</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
