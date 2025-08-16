@@ -1,67 +1,71 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<div w3-include-html="head-section.html"></div>
-<body>
-    <div class="container">
-        <div w3-include-html="top-panel.html"></div>
-        <header>
-            <img src="logo.png" alt="Gen AI Global Logo" class="logo">
-        </header>
-        <main>
-            <div class="hero-section">
-                <div class="hero-content">
-                    <h1>Welcome to Gen AI Global</h1>
-                    <p class="subtitle">Transforming the future through artificial intelligence</p>
-                </div>
-            </div>
-            <div class="coming-soon">
-                <h2>Our Mission</h2>
-                <p>Democratize AI knowledge across industries to foster collaboration, accelerate innovation, and drive cross-sector growth.</p>
-            </div>
-            <div class="features">
-                <div class="feature">
-                    <h3>Innovation</h3>
-                    <p>Pushing the boundaries of what's possible with AI</p>
-                </div>
-                <div class="feature">
-                    <h3>Global Impact</h3>
-                    <p>Creating solutions that benefit humanity worldwide</p>
-                </div>
-                <div class="feature">
-                    <h3>Expertise</h3>
-                    <p>Led by industry leaders in artificial intelligence</p>
-                </div>
-            </div>
-
-        <!-- Welcome Video Section -->
-        <div class="welcome-video">
-            <h2>Welcome Video</h2>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7325375681414971392?compact=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        </div>
-
-        </main>
-        <footer>
-            <p>&copy; 2024 Gen AI Global. All rights reserved.</p>
-        </footer>
-    </div>
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <head>
+    <!-- Consent Management - Silktide -->
     <script>
-        w3.includeHTML();
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const nav = document.querySelector('.top-nav');
+      // Initialize the dataLayer
+      window.dataLayer = window.dataLayer || [];
 
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) { // Adjusted threshold for better visibility
-                    nav.style.backgroundColor = '#ffffff'; // Solid color when scrolling
-                    nav.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)'; // Add shadow
-                } else {
-                    nav.style.backgroundColor = 'transparent'; // Transparent when at the top
-                    nav.style.boxShadow = 'none'; // Remove shadow
-                }
-            });
-        });
+      // Create the gtag function that pushes to the dataLayer
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      // Set consent defaults
+      gtag('consent', 'default', {
+        analytics_storage: localStorage.getItem('silktideCookieChoice_analytics') === 'true' ? 'granted' : 'denied',
+        ad_storage: localStorage.getItem('silktideCookieChoice_marketing') === 'true' ? 'granted' : 'denied',
+        ad_user_data: localStorage.getItem('silktideCookieChoice_marketing') === 'true' ? 'granted' : 'denied',
+        ad_personalization: localStorage.getItem('silktideCookieChoice_marketing') === 'true' ? 'granted' : 'denied',
+        functionality_storage: localStorage.getItem('silktideCookieChoice_necessary') === 'true' ? 'granted' : 'denied',
+        security_storage: localStorage.getItem('silktideCookieChoice_necessary') === 'true' ? 'granted' : 'denied'
+      });
     </script>
-</body>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TZ8DHWCH');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/lovable-uploads/eed53564-63d3-42ef-ba27-84f9b10a41b0.png" type="image/png" />
+    <title>Gen AI Global — Responsible AI Community</title>
+    <meta name="description" content="Gen AI Global: An open, responsible AI community. Content pending verification." />
+    <meta name="author" content="Gen AI Global" />
+    <meta name="keywords" content="Gen AI Global, responsible AI, AI community, education, research" />
+    <meta property="og:title" content="Gen AI Global — Responsible AI Community" />
+    <meta property="og:description" content="Gen AI Global: An open, responsible AI community. Content pending verification." />
+    <meta property="og:image" content="https://genaiglobal.org/lovable-uploads/eed53564-63d3-42ef-ba27-84f9b10a41b0.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://genaiglobal.org" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Gen AI Global" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gen AI Global — Responsible AI Community" />
+    <meta name="twitter:description" content="Gen AI Global: An open, responsible AI community. Content pending verification." />
+    <meta name="twitter:image" content="https://genaiglobal.org/lovable-uploads/eed53564-63d3-42ef-ba27-84f9b10a41b0.png" />
+    <!-- LinkedIn specific -->
+    <meta property="og:image:secure_url" content="https://genaiglobal.org/lovable-uploads/eed53564-63d3-42ef-ba27-84f9b10a41b0.png" />
+    <!-- Pinterest specific -->
+    <meta name="pinterest:description" content="Gen AI Global: An open, responsible AI community." />
+    <meta name="pinterest:image" content="https://genaiglobal.org/lovable-uploads/eed53564-63d3-42ef-ba27-84f9b10a41b0.png" />
+    <link rel="canonical" href="https://genaiglobal.org" />
+    <!-- Robots directive -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZ8DHWCH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
