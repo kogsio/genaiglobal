@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div w3-include-html="head-section.html"></div>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <style>
+        .org-chart {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .panel {
+            flex: 1;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .panel h3 {
+            font-size: 1.2rem;
+            margin: 20px 0 10px; /* Added space above and below */
+        }
+
+        .panel p {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div w3-include-html="top-panel.html"></div>
+        <header>
+            <img src="logo.png" alt="Gen AI Global Logo" class="logo">
+        </header>
+        <main>
+            <h1>About Us</h1>
+            <p>Meet the team behind Gen AI Global:</p>
+            <div class="org-chart">
+                <!-- Panel 1 -->
+                <div class="panel">
+                    <div class="level">
+                        <h3>Founders</h3>
+                        <p>Dr. Abel Sanchez</p>
+                        <p>Oscar Sanchez</p>
+                    </div>
+                    <div class="level">
+                        <h3>Network Architects</h3>
+                        <p>Sangame Krishnamani</p>
+                        <p>Jose Cordovilla</p>
+                        <p>Carlos de March</p>
+                        <p>Rodrigo Reyes</p>
+                        <p>Dragana Linfield</p>
+                    </div>
+                    <div class="level">
+                        <h3>Head of Cybersecurity</h3>
+                        <p>David Whyte</p>
+                    </div>
+                    <div class="level">
+                        <h3>SGU</h3>
+                        <p>Arturo Cuevas</p>
+                        <p>Cristian Ursan</p>
+                        <p>Deidré Luzmore</p>
+                        <p>Diellza Ahmetaj</p>
+                        <p>Frédérique Lambers</p>
+                        <p>Katherine Valqui</p>
+                        <p>Naeem Afzal</p>
+                        <p>Pablo Allois</p>
+                        <p>Ralph Eisenhardt</p>
+                        <p>Sudalai Muthu</p>
+                    </div>
+                    <div class="level">
+                        <h3>Head of IT</h3>
+                        <p>Nikhil Kassetty</p>
+                    </div>
+                </div>
+
+                <!-- Panel 2 -->
+                <div class="panel">
+                    <div class="level">
+                        <h3>Conversational Leaders</h3>
+                        <p>Oscar Garcia</p>
+                        <p>Silke Finken</p>
+                        <p>Apoorv Garg</p>
+                        <p>Prabhat Kumar</p>
+                        <p>Michelle Rhee</p>
+                        <p>Rad Ramamurthy</p>
+                        <p>Laura Neder</p>
+                        <p>Michael Keady</p>
+                        <p>Ash Mikhail</p>
+                        <p>Melinda Melcher</p>
+                        <p>Georgi Pavlov</p>
+                        <p>Marie Ribbelöv</p>
+                        <p>Nasser Aly</p>
+                        <p>Antoine Christopher</p>
+                        <p>Eduardo Fadanelli</p>
+                        <p>Esteban Elia</p>
+                        <p>Nura Mukyshev</p>
+                        <p>Sebastien Francois</p>
+                        <p>Andrea Hickethier</p>
+                        <p>Bisera Ferrero</p>
+                        <p>Shabana Islam</p>
+                    </div>
+                    <div class="level">
+                        <h3>Head of Onboarding</h3>
+                        <p>Amber Bellou</p>
+                    </div>
+                    <div class="level">
+                        <h3>Head of Agile and Ops</h3>
+                        <p>Deidré Luzmore</p>
+                        <p>Diellza Ahmetaj</p>
+                    </div>
+                </div>
+
+                <!-- Panel 3 -->
+                <div class="panel">
+                    <div class="level">
+                        <h3>Head of Content Creation</h3>
+                        <p>Katherine Valqui</p>
+                    </div>
+                    <div class="level">
+                        <h3>VPs Content Creation</h3>
+                        <p>Oscar Sanchez</p>
+                        <p>Apoorv Garg</p>
+                        <p>Rad Ramamurthy</p>
+                        <p>Rodrigo Reyes</p>
+                    </div>
+                    <div class="level">
+                        <h3>Content Creation</h3>
+                        <p>Oscar Garcia</p>
+                        <p>Xiaoke Pu</p>
+                        <p>Silke Finken</p>
+                    </div>
+                    <div class="level">
+                        <h3>WhatsApp Managers</h3>
+                        <p>Oscar Garcia</p>
+                        <p>Hatice Yavuz</p>
+                        <p>Xiaoke Pu</p>
+                    </div>
+                    <div class="level">
+                        <h3>Head of Website Development</h3>
+                        <p>Sangame Krishnamani</p>
+                    </div>
+                    <div class="level">
+                        <h3>VPs of Website Development</h3>
+                        <p>Nasser Aly</p>
+                        <p>Oscar Sanchez</p>
+                        <p>Jose Cordovilla</p>
+                        <p>Amber Bellou</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Gen AI Global. All rights reserved.</p>
+        </footer>
+    </div>
+     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script>
+        w3.includeHTML();
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const nav = document.querySelector('.top-nav');
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) { // Adjusted threshold for better visibility
+                    nav.style.backgroundColor = '#ffffff'; // Solid color when scrolling
+                    nav.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)'; // Add shadow
+                } else {
+                    nav.style.backgroundColor = 'transparent'; // Transparent when at the top
+                    nav.style.boxShadow = 'none'; // Remove shadow
+                }
+            });
+        });
+    </script>
+</body>
+</html>
